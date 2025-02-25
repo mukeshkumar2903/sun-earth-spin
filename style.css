@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.box-black
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sun
+{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    animation: rotation 5s linear infinite;
+}
+.earth
+{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left: -150px;
+    
+}
+@keyframes rotation {
+    from{
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
